@@ -1,18 +1,18 @@
 //2. After printing their value assign them as null and print it again.
-let Name = null;
-let Email = null;
-let Age = null;
-let Address = null;
-let PhoneNumber = null;
-let Gender = null;
-let MaritalStatus = null;
+let employeeeName = null;
+let employeeeEmail = null;
+let employeeeAge = null;
+let employeeeAddress = null;
+let employeeePhoneNumber = null;
+let employeeeGender = null;
+let employeeeMaritalStatus = null;
 function Form() {
-    console.log(Name)
-    console.log(Email)
-    console.log(Age)
-    console.log(Address)
-    console.log(PhoneNumber)
-    console.log(Gender)
-    console.log(MaritalStatus)
+    console.log(employeeeName)
+    console.log(employeeeEmail)
+    console.log(employeeeAge)
+    console.log(employeeeAddress)
+    console.log(employeeePhoneNumber)
+    console.log(employeeeGender)
+    console.log(employeeeMaritalStatus)
 }
 Form()
