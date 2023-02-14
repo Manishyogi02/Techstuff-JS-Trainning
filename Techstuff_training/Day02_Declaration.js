@@ -1,19 +1,18 @@
-//2. After printing their value assign them as null and print it again.
-//2. After printing their value assign them as null and print it again.
-let Name;
-let Email;
-let Age;
-let Address;
-let PhoneNumber;
-let Gender;
-let MaritalStatus;
+//1. Declare all the variables in above form without initialising and print their value.
+let employeeeName;
+let employeeeEmail;
+let employeeeAge;
+let employeeeAddress;
+let employeeePhoneNumber;
+let employeeeGender;
+let employeeeMaritalStatus;
 function Form() {
-    console.log(Name)
-    console.log(Email)
-    console.log(Age)
-    console.log(Address)
-    console.log(PhoneNumber)
-    console.log(Gender)
-    console.log(MaritalStatus)
+    console.log(employeeeName)
+    console.log(employeeeEmail)
+    console.log(employeeeAge)
+    console.log(employeeeAddress)
+    console.log(employeeePhoneNumber)
+    console.log(employeeeGender)
+    console.log(employeeeMaritalStatus)
 }
 Form()
