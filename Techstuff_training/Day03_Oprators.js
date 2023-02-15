@@ -1,6 +1,6 @@
 //1. Take two numbers and perform all the arithmetic operations over them.
-let a = 10
-let b = 2
+let a = prompt("Enter First Number:-");
+let b = prompt("Enter Second Number:-");
 console.log("a + b:-",a + b)
 console.log("a - b:-",a - b)
 console.log("a * b:-",a * b)
