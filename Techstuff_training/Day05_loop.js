@@ -2,7 +2,7 @@
 let sum = 0
 //let n = prompt("Enter any number :-") 
 console.log("Sum of first 10 natural numbers is :- ")
-for (let i = 1; i < 11; i++) {
+for (let i = 1; i < 10; i++) {
   sum += i+1
 }
 console.log(sum)
