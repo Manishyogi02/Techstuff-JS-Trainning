@@ -1,3 +1,4 @@
+//1. Take an array of objects of employees created above and print those employees whose age is less than 50.
 const employees = [
     { name: 'Manish Yogi', email: "manishnathyogi333@gmail", age: 23, mobileNumber: 8349317060, address: "Ujjain M.P.", gender: "Male", maritialStatus: "Single" },
     { name: 'Rishi Solanki', email: "rishisolanki45@gmail", age: 55, mobileNumber: 8349569160, address: "Indore M.P.", gender: "Male", maritialStatus: "Married" },
