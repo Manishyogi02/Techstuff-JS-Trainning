@@ -1,3 +1,4 @@
+// IT is JSON file , for import json fils's data we have to create JS file and than export it in JS file
 [
   {
     "id": 1,
@@ -30,3 +31,29 @@
     "salary": 650000
   }
 ]
+// 1. Add the list of employees in a json file and import it in below file to use it. Add unique ids for each employee.
+const employees = require('./Day09_employees.json');
+
+console.log(employees);
+
+
+// 2. Add a function to return list of employees that contains "am" in his name. Add it in separate file and import it to call in another file.
+function getEmployeesWithNameContainingAM(employees) {
+    return employees.filter(employee => employee.name.includes('am'));
+  }
+  
+  module.exports = {
+    getEmployeesWithNameContainingAM
+  };
+
+// Create another JS file to call above function and also call JSON file
+// main.js, This is our main JS file
+
+const { getEmployeesWithNameContainingAM } = require('./Day09_JSONfunction');
+const employees = require('./Day09_employees.json');
+
+const employeesWithNameContainingAM = getEmployeesWithNameContainingAM(employees);
+
+console.log(employeesWithNameContainingAM);
+
+  
