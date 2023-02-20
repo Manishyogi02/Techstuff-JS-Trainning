@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Manish Yogi",
+    "department": "Engineering",
+    "salary": 750000
+  },
+  {
+    "id": 2,
+    "name": "Arnav Damle",
+    "department": "Product",
+    "salary": 450000
+  },
+  {
+    "id": 3,
+    "name": "Aayush Tapadia",
+    "department": "Finance",
+    "salary": 800000
+  },
+  {
+    "id": 4,
+    "name": "Rishi Solanki",
+    "department": "Sales",
+    "salary": 550000
+  },
+  {
+    "id": 5,
+    "name": "Badal Verma",
+    "department": "Marketing",
+    "salary": 650000
+  }
+]
