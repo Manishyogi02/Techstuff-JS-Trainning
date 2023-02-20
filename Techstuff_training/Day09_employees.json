@@ -1,4 +1,4 @@
-// IT is JSON file , for import json fils's data we have to create JS file and than export it in JS file
+// IT is JSON file , for import json fils's data we have to create JS file and than export it in JS file, (1st file)
 [
   {
     "id": 1,
