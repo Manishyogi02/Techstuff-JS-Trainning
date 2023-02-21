@@ -1,3 +1,4 @@
+// 1.Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.
 class Employee {
     constructor(name, age, salary) {
       this.name = name;
