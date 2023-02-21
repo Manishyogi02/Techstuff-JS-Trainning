@@ -1,4 +1,14 @@
 // 1. Create a function that takes a number and prints all even numbers upto that number
+function printEvenNumber(n){
+    for (let i = 2; i<=n; i+=2){
+      console.log(i)
+  }
+}
+  let e = prompt("Enter any value :-")
+  console.log(printEvenNumber(e))
+
+  
+//  2. Create a function that takes 2 parameter => an array of employees and age and returns all employees whose age is less than input age.
 function printYoungEmployees(employees, ageThreshold) {
   employees.forEach(function(employee) {
     if (employee.age < ageThreshold) {
@@ -15,12 +25,3 @@ const employees = [
 ];
 printYoungEmployees(employees, 30);
 
-  
-  // 2. Create a function that takes 2 parameter => an array of employees and age and returns all employees whose age is less than input age.
-  function printEvenNumber(n){
-    for (let i = 2; i<=n; i+=2){
-      console.log(i)
-  }
-}
-  let e = prompt("Enter any value :-")
-  console.log(printEvenNumber(e))
