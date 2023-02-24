@@ -1,3 +1,4 @@
+// 1.Create a function that returns array of employees from a random time from 1 to 2 seconds using promise chaining.
 function getERmployee(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
