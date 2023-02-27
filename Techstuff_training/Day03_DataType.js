@@ -8,10 +8,10 @@ const employeeDetails = {
     employeeGender : " ",
     employeeisMarried : false,
 }
-console.log(employeeDetails["employeeName"]),
-console.log(employeeDetails["employeeEmail"]),
+console.log(employeeDetails)
+/*console.log(employeeDetails["employeeEmail"]),
 console.log(employeeDetails["employeeAge"]),
 console.log(employeeDetails["employeeAddress"]),
 console.log(employeeDetails["employeePhoneNumber"]),
 console.log(employeeDetails["employeeGender"]),
-console.log(employeeDetails["employeeisMarried"])
+console.log(employeeDetails["employeeisMarried"])*/
